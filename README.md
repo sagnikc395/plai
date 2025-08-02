@@ -1,6 +1,10 @@
-## learning racket
+## plai
 
-Learning Racket for PL Research, Type Semantics and Functional
+Learning Racket and Programming Language fundamentals
+for PL Research, Type Semantics and Functional
 Programming.
 
+### Resources:
+
+- [PLAI](https://www.plai.org/)
 
