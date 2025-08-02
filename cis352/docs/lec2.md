@@ -40,3 +40,5 @@ variants of Racket.
 - We can even build our own language.
 - `#lang racket` imports the core forms of the language -> some of the language defines new
 kinds of semantics -> using the powerful macro system of Racket.
+
+- if is not a function, but a function primitive 

@@ -30,3 +30,17 @@
 (define (f x y)
     ;; body of the function simply returns x 
     x)
+
+(define (foo x)
+    ;; call itself with the same arguments
+    ;; recursive function that wont terminate 
+    (foo x))
+
+;; can also have a 0 argument function like
+(define (foo2)
+    1)
+
+;; we can define a infintely long function
+(define (foo3) (foo3))
+
+
