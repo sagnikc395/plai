@@ -1,4 +1,4 @@
-#lang racket
+#cket lang racket
 
 
 ;; racket uses prefix notation everywhere

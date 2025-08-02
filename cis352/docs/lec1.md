@@ -61,5 +61,26 @@ is default. in Racket, Ruby, Haskell have explicitly return it.
 
 - The body of the function is defined in parenthesis as well.
 - The preferred style is to put closing parens at the end of closing blocks.
+- Racket doesn't enforce whitespace constraint -> prevent us to have a ton of deeply nested parenthesis.
+- Lisp has a ton of parenthesis has a lot of parenthesis by default.
 
+### Basic Types in Racket
 
+- Numeric Tower : Numeric Types gracefully degrade.
+  - Eg: (* (/ 8 3) 2+1i) is 16/3+8/3i
+  - Note that 2+1i is a literal value as in 2.3
+
+- Strings and Characters ("foo" and #\a)
+
+- Booleans (#t and #f) including logical operator (eg: or, and )
+  - Note that operators "short circuit"
+
+- Things that end in ? in Racket are pronounced as "huh" and
+ they are called as predicates, and they end in true or false(#t or #f)
+
+- Racket also has Symbols.
+  - Symbols are called interrned strings.
+  - done by using a ' (tick) in front of it
+  - 'hello
+  - Racket only copies one copy of the Symbol.
+  
